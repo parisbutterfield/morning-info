@@ -14,11 +14,11 @@ var gmapsParams = {
 
   traffic_model: "best_guess",
   mode: "driving",
-  key: "", //google maps api key
+  key: "", //google distance matrix api key
   departure_time: "now"
 };
 
-var automatic_access_token = '';  //replace th
+var automatic_access_token = '';  //replace this with the access token from the pre work section step 5
 
 router.use('/', function(req, res, next) {
 
