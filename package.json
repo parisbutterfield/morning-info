@@ -1,0 +1,12 @@
+{
+  "name": "morning-info",
+  "version": "0.0.1",
+  "description": "An app for the LaMetric Time that displays information from Automatic",
+  "main": "server.js",
+  "repository": "",
+  "author": "Paris Butterfield <parisbdev@gmail.com>",
+  "dependencies": {
+    "unirest": "0.5.1",
+    "express": "~3.2.4",
+  }
+}
